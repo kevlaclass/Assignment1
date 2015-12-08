@@ -133,7 +133,7 @@ void bargraph()// funtion to display bargraph
         float x1 = border + (i  * lineWidth);
         println(carps.get(i).sum2);
         println(carps.get(i+1).sum2);
-        fill(random(255), random(255), random(255));
+        fill(carps.get(i).sum2-100,carps.get(i).sum2-100, carps.get(i).sum2-350);
         rect(x1, (height-border), lineWidth, -y1);
         
       }
